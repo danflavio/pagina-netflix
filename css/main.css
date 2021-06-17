@@ -13,7 +13,7 @@
 /*elementos base*/
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
 }
 
@@ -28,7 +28,6 @@ header .container {
 header .logo {
     margin-left: 10px;
     color: var(--vermelha);
-    font-family: 'Arial Black', sans-serif;
     font-size: 40px;
 }
 
@@ -51,7 +50,7 @@ header nav a:hover {
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../images/capa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 80vh;
     justify-content: center;
     align-items: flex-start;
 }
@@ -63,9 +62,14 @@ header nav a:hover {
 }
 
 .titulo {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-netflix {
+    width: 150px;
+    height: auto;
 }
 
 .button {
@@ -86,7 +90,7 @@ header nav a:hover {
 }
 
 .botao i {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 
@@ -102,4 +106,8 @@ header nav a:hover {
     height: 50%;
     width: auto;
     display: block;
+}
+
+.carrosel-filme {
+    margin-top: 10px;
 }
